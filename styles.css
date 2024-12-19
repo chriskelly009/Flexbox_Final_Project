@@ -85,12 +85,13 @@ a, .header-logo {
 }
 .cta-text {
     text-align: center;
+    
 }
 .tile {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 150px;
+    width: 200px;
 }
 img {
     height: 200px;
