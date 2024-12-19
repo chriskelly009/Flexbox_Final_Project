@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     background-color: #1f2937;
     font-style: Roboto;
@@ -44,11 +45,12 @@ a, .header-logo {
     justify-content: center;
     align-items: center;
 }
-.hero-section {
+.hero {
     margin-top: 150px;
     display: flex;
     gap: 200px;
     align-items: center;
+    justify-content: center;
 }
 .sign-up {
     background-color: #3882F6;
@@ -57,4 +59,55 @@ a, .header-logo {
     padding: 8px 25px;
     border-radius: 8px;
     margin-top: 15px;
+}
+.cta-heading {
+    font-weight: bold;
+    font-size: 32px;
+    margin: auto;
+    padding: 40px 0;
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+.tiles {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.cta-img {
+    height: 200px;
+    /* width: 200px; */
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
+.cta-text {
+    text-align: center;
+}
+.tile {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+}
+
+
+
+@media (max-width: 1400px) {
+    .hero {
+        flex-direction: column;
+        gap: 25px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-margin {
+        margin-left: 0;
+    }
+   .hero-section1 {
+    text-align: center;
+   }
 }
